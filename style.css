@@ -1,0 +1,210 @@
+img
+{
+    display: flex;
+    margin-left: 400px;
+    width: 1000px;
+    height: 500px;
+}
+
+#Front
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    background-image:url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    margin: 10px;
+    font-size: larger;
+
+}
+.center
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header
+{
+    padding: 20px 0;
+}
+.logo
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    top: 10px;
+    left: -380px;
+}
+.menu
+{
+    position: relative;
+    top: -70px;
+    margin-left: 720px;
+}
+.menu a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.menu a:hover
+{
+    transition: all .5s ease;
+    font-size: 30px;
+}
+
+button
+{
+    width: 234px;
+    margin: 100px auto 0;
+    margin-left: 660px auto 0;
+    background-color: transparent;
+    text-align: center;
+    height: 54px;
+    display: block;
+    border-color: white;
+    border-radius: 20px;
+    font-size:x-large;
+    border:5px solid #FFF;
+    transition: all .5s ease;
+
+}
+button:hover{
+    width: 260px;
+    height: 70px;
+}
+button a
+{
+    text-decoration: none;
+    font-weight: bold;
+    border-color: white; 
+    
+    color: white;
+}
+
+.btn{
+
+    background-color: rgb(52, 52, 52) !important;
+    border-color: black !important;
+    border: 5px solid #3b3b3b!important;
+    border-style: groove !important;
+
+}
+
+.logo2
+{
+    height: 300px;
+    width: 600px;
+    margin-left: 460px;
+    margin-top: 100px;
+}
+
+.cardlogofiat
+{
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.cardlogoford
+{
+    margin-left: 53px;
+    width: 180px;
+    height: 60px;
+
+}
+
+.cardlogochevrolet
+{
+    width: 220px;
+    height: 100px;
+}
+
+.cardlogovw
+{
+    width: 180px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.cardlogohondac
+{
+    width: 220px;
+    height: 140px;
+    margin-left: 45px;
+    padding-top: 15px;
+}
+
+.cardlogotoyota
+{
+    width: 180px;
+    height: 160px;
+    margin-left: 55px;
+    padding-top: 15px;
+}
+
+.cardlogohonda
+{
+    width: 180px;
+    height: 110px;
+    margin-left: 50px;
+}
+
+.card1
+{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card2
+{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.simbolo
+{
+    position:relative;
+    height: 40px;
+    width: 40px;
+    top: 45px;
+    left: 35px;
+}
+
+.simbolo2
+{
+    position:relative;
+    height: 55px;
+    width: 70px;
+    top: 50px;
+    left: 10px;
+}
+
+.simbolo3
+{
+    position:relative;
+    height: 75px;
+    width: 95px;
+    top: 72px;
+    left: 10px;
+}
+
